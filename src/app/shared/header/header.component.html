@@ -12,25 +12,33 @@
       </svg>
     </label>
     <div class="ae-container-fluid rk-topbar">
-      <h1 class="rk-logo"><a href="index.html">ELSHA<sup>tm</sup></a></h1>
+      <h1 class="rk-logo"><a routerLink="home">ELSHA<sup>tm</sup></a></h1>
       <nav class="rk-navigation">
         <ul class="rk-menu">
-          <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Inicio</a>
+          <li routerLinkActive="active" class="rk-menu__item">
+            <a routerLink="home" class="rk-menu__link">NUEVO</a>
           </li>
-          <li class="active rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Mujer</a>
+          <li routerLinkActive="active" class="rk-menu__item">
+            <a routerLink="item" class="rk-menu__link">Mujer</a>
           </li>
-          <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Hombre</a>
+          <li routerLinkActive="active" class="rk-menu__item">
+            <a routerLink="item" class="rk-menu__link">Hombre</a>
           </li>
-          <li class="rk-menu__item"><a href="#0" class="rk-menu__link">LO NUEVO</a>
+          <li routerLinkActive="active" class="rk-menu__item">
+            <a routerLink="item" class="rk-menu__link">Niños</a>
             <nav class="rk-menu__sub">
               <ul class="rk-container">
-                <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">Contáctanos</a></li>
-                <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
-                <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
+                <li class="rk-menu__item">
+                  <a routerLink="item" class="rk-menu__link">Niño</a></li>
+                <li class="rk-menu__item">
+                  <a routerLink="item" class="rk-menu__link">Niña</a></li>
+                <li class="rk-menu__item">
+                  <a routerLink="item" class="rk-menu__link">Bebés</a></li>
               </ul>
             </nav>
           </li>
-          <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
+          <li routerLinkActive="active" class="rk-menu__item">
+            <a routerLink="about" class="rk-menu__link">Contáctanos</a>
           </li>
         </ul>
         <form class="rk-search">
